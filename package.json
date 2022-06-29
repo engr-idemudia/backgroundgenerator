@@ -1,11 +1,22 @@
 {
   "name": "backgroundgenerator",
   "version": "1.0.0",
-  "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify script.js > bundle.js && live-server"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osas-Idemudia/backgroundgenerator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/osas-Idemudia/backgroundgenerator/issues"
+  },
+  "homepage": "https://github.com/osas-Idemudia/backgroundgenerator#readme",
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
